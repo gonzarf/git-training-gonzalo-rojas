@@ -14,4 +14,7 @@ public class CuencoCaramelos {
             caramelos--;
         }
     }
+    public synchronized int obtenerCaramelosRestantes() {
+        return caramelos;
+    }
 }
